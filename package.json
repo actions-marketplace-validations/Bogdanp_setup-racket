@@ -5,10 +5,10 @@
   "description": "Setup Racket action",
   "main": "lib/setup-racket.js",
   "scripts": {
-    "build": "rollup src/setup-racket.ts --file lib/setup-racket.js --format cjs -p '@rollup/plugin-node-resolve' -p '@rollup/plugin-commonjs' -p '@rollup/plugin-typescript'",
+    "build": "rollup -c",
     "format": "prettier --write **/*.ts",
     "format-check": "prettier --check **/*.ts",
-    "test": "jest"
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "repository": {
     "type": "git",
@@ -22,25 +22,23 @@
   "author": "Bogdanp",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.5",
-    "@actions/exec": "^1.1",
-    "@actions/io": "^1.1",
-    "@actions/tool-cache": "^1.7",
-    "semver": "^6.3.1"
+    "@actions/core": "^3.0.0",
+    "@actions/exec": "^3.0.0",
+    "@actions/io": "^3.0.2",
+    "@actions/tool-cache": "^4.0.0"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^18.1.0",
-    "@rollup/plugin-node-resolve": "^13.0.0",
-    "@rollup/plugin-typescript": "^8.2.1",
-    "@types/jest": "^27.1.4",
-    "@types/node": "^12.0.4",
-    "@types/semver": "^6.0.0",
-    "jest": "^27.5.1",
-    "jest-circus": "^24.7.1",
-    "prettier": "^1.17.1",
-    "rollup": "^2.47.0",
-    "ts-jest": "^27.1.4",
-    "tslint": "^5.20.0",
-    "typescript": "^4.6.3"
+    "@rollup/plugin-commonjs": "^29.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-typescript": "^12.3.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^24.12.0",
+    "cross-env": "^10.1.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.8.1",
+    "rollup": "^4.59.0",
+    "ts-jest": "^29.4.6",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.3"
   }
 }

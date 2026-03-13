@@ -1,7 +1,6 @@
 import * as core from '@actions/core';
 import * as exec from '@actions/exec';
 import * as tc from '@actions/tool-cache';
-import * as http from 'http';
 import * as https from 'https';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -85,7 +84,7 @@ export function makeInstallerURL(
     }
     maybeSuffix = variant === 'CS' ? '-cs' : '-bc';
   } else if (version === 'pre-release') {
-    base = 'http://pre-release.racket-lang.org/installers';
+    base = 'https://pre-release.racket-lang.org/installers';
     version = 'current';
     maybeSuffix = variant === 'CS' ? '-cs' : '-bc';
   }
@@ -332,7 +331,7 @@ const versionRe = /\(stable "([^"]+)"\)/;
 
 export function lookupStableVersion(): Promise<string> {
   return new Promise((resolve, reject) => {
-    http.get('http://download.racket-lang.org/version.txt', res => {
+    https.get('https://download.racket-lang.org/version.txt', res => {
       const {statusCode} = res;
       if (statusCode !== 200) {
         reject(new Error(`request failed with status code ${statusCode}`));
@@ -394,6 +393,8 @@ export function cmpVersions(thisStr: string, otherStr: string): -1 | 0 | 1 {
     return -1;
   } else if (thisVer === 'pre-release') {
     return 1;
+  } else if (otherVer === 'pre-release') {
+    return -1;
   } else if (thisVer > otherVer) {
     return 1;
   } else {

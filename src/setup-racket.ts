@@ -2,7 +2,7 @@ import * as process from 'process';
 import * as core from '@actions/core';
 import * as common from './common';
 
-(async function() {
+(async function () {
   try {
     let version = core.getInput('version') || 'stable';
     if (version === 'stable') {

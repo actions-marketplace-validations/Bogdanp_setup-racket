@@ -323,67 +323,67 @@ describe('makeInstallerURL', () => {
       ],
       [
         ['pre-release', 'x64', 'minimal', 'CS', 'linux', 'none'],
-        'http://pre-release.racket-lang.org/installers/racket-minimal-current-x86_64-linux-cs.sh'
+        'https://pre-release.racket-lang.org/installers/racket-minimal-current-x86_64-linux-cs.sh'
       ],
       [
         ['pre-release', 'x64', 'minimal', 'BC', 'linux', 'none'],
-        'http://pre-release.racket-lang.org/installers/racket-minimal-current-x86_64-linux-bc.sh'
+        'https://pre-release.racket-lang.org/installers/racket-minimal-current-x86_64-linux-bc.sh'
       ],
       [
         ['pre-release', 'x64', 'full', 'CS', 'linux', 'none'],
-        'http://pre-release.racket-lang.org/installers/racket-current-x86_64-linux-cs.sh'
+        'https://pre-release.racket-lang.org/installers/racket-current-x86_64-linux-cs.sh'
       ],
       [
         ['pre-release', 'x64', 'full', 'BC', 'linux', 'none'],
-        'http://pre-release.racket-lang.org/installers/racket-current-x86_64-linux-bc.sh'
+        'https://pre-release.racket-lang.org/installers/racket-current-x86_64-linux-bc.sh'
       ],
       [
         ['pre-release', 'arm64', 'minimal', 'CS', 'darwin', 'none'],
-        'http://pre-release.racket-lang.org/installers/racket-minimal-current-aarch64-macosx-cs.dmg'
+        'https://pre-release.racket-lang.org/installers/racket-minimal-current-aarch64-macosx-cs.dmg'
       ],
       [
         ['pre-release', 'x64', 'minimal', 'CS', 'darwin', 'none'],
-        'http://pre-release.racket-lang.org/installers/racket-minimal-current-x86_64-macosx-cs.dmg'
+        'https://pre-release.racket-lang.org/installers/racket-minimal-current-x86_64-macosx-cs.dmg'
       ],
       [
         ['pre-release', 'x64', 'minimal', 'BC', 'darwin', 'none'],
-        'http://pre-release.racket-lang.org/installers/racket-minimal-current-x86_64-macosx-bc.dmg'
+        'https://pre-release.racket-lang.org/installers/racket-minimal-current-x86_64-macosx-bc.dmg'
       ],
       [
         ['pre-release', 'arm64', 'full', 'CS', 'darwin', 'none'],
-        'http://pre-release.racket-lang.org/installers/racket-current-aarch64-macosx-cs.dmg'
+        'https://pre-release.racket-lang.org/installers/racket-current-aarch64-macosx-cs.dmg'
       ],
       [
         ['pre-release', 'x64', 'full', 'CS', 'darwin', 'none'],
-        'http://pre-release.racket-lang.org/installers/racket-current-x86_64-macosx-cs.dmg'
+        'https://pre-release.racket-lang.org/installers/racket-current-x86_64-macosx-cs.dmg'
       ],
       [
         ['pre-release', 'x64', 'full', 'BC', 'darwin', 'none'],
-        'http://pre-release.racket-lang.org/installers/racket-current-x86_64-macosx-bc.dmg'
+        'https://pre-release.racket-lang.org/installers/racket-current-x86_64-macosx-bc.dmg'
       ],
       [
         ['pre-release', 'x86', 'minimal', 'CS', 'win32', 'none'],
-        'http://pre-release.racket-lang.org/installers/racket-minimal-current-i386-win32-cs.exe'
+        'https://pre-release.racket-lang.org/installers/racket-minimal-current-i386-win32-cs.exe'
       ],
       [
         ['pre-release', 'x64', 'minimal', 'CS', 'win32', 'none'],
-        'http://pre-release.racket-lang.org/installers/racket-minimal-current-x86_64-win32-cs.exe'
+        'https://pre-release.racket-lang.org/installers/racket-minimal-current-x86_64-win32-cs.exe'
       ],
       [
         ['pre-release', 'x64', 'minimal', 'BC', 'win32', 'none'],
-        'http://pre-release.racket-lang.org/installers/racket-minimal-current-x86_64-win32-bc.exe'
+        'https://pre-release.racket-lang.org/installers/racket-minimal-current-x86_64-win32-bc.exe'
       ],
       [
         ['pre-release', 'x86', 'full', 'CS', 'win32', 'none'],
-        'http://pre-release.racket-lang.org/installers/racket-current-i386-win32-cs.exe'
+        'https://pre-release.racket-lang.org/installers/racket-current-i386-win32-cs.exe'
       ],
       [
         ['pre-release', 'x64', 'full', 'CS', 'win32', 'none'],
-        'http://pre-release.racket-lang.org/installers/racket-current-x86_64-win32-cs.exe'
+        'https://pre-release.racket-lang.org/installers/racket-current-x86_64-win32-cs.exe'
       ],
       [
         ['pre-release', 'x64', 'full', 'BC', 'win32', 'none'],
-        'http://pre-release.racket-lang.org/installers/racket-current-x86_64-win32-bc.exe'
+        'https://pre-release.racket-lang.org/installers/racket-current-x86_64-win32-bc.exe'
       ]
     ];
 

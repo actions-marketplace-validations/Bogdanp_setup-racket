@@ -35,10 +35,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Setup Node.js 17.x
+    - name: Setup Node.js 24.x
       uses: actions/setup-node@v4
       with:
-        node-version: 17.x
+        node-version: 24.x
         cache: npm
 
     - name: npm install
@@ -73,10 +73,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Setup Node.js 17.x
+    - name: Setup Node.js 24.x
       uses: actions/setup-node@master
       with:
-        node-version: 17.x
+        node-version: 24.x
 
     - run: npm install
     - run: npm run format-check
@@ -134,10 +134,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Setup Node.js 17.x
+    - name: Setup Node.js 24.x
       uses: actions/setup-node@v4
       with:
-        node-version: 17.x
+        node-version: 24.x
         cache: npm
 
     - run: npm install
@@ -174,10 +174,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Setup Node.js 17.x
+    - name: Setup Node.js 24.x
       uses: actions/setup-node@v4
       with:
-        node-version: 17.x
+        node-version: 24.x
         cache: npm
 
     - run: npm install
@@ -210,10 +210,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Setup Node.js 17.x
+    - name: Setup Node.js 24.x
       uses: actions/setup-node@v4
       with:
-        node-version: 17.x
+        node-version: 24.x
         cache: npm
 
     - run: npm install
@@ -255,10 +255,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Setup Node.js 17.x
+    - name: Setup Node.js 24.x
       uses: actions/setup-node@v4
       with:
-        node-version: 17.x
+        node-version: 24.x
         cache: npm
 
     - run: npm install
@@ -290,10 +290,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Setup Node.js 17.x
+    - name: Setup Node.js 24.x
       uses: actions/setup-node@v4
       with:
-        node-version: 17.x
+        node-version: 24.x
         cache: npm
 
     - run: npm install
@@ -318,10 +318,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Setup Node.js 17.x
+    - name: Setup Node.js 24.x
       uses: actions/setup-node@v4
       with:
-        node-version: 17.x
+        node-version: 24.x
         cache: npm
 
     - run: npm install
@@ -346,10 +346,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Setup Node.js 17.x
+    - name: Setup Node.js 24.x
       uses: actions/setup-node@v4
       with:
-        node-version: 17.x
+        node-version: 24.x
         cache: npm
 
     - run: npm install
@@ -376,10 +376,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Setup Node.js 17.x
+    - name: Setup Node.js 24.x
       uses: actions/setup-node@v4
       with:
-        node-version: 17.x
+        node-version: 24.x
         cache: npm
 
     - name: npm install
